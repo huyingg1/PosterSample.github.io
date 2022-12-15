@@ -51,7 +51,7 @@ p {
   font-size: 16px;
 }
 
-.hero {
+.meetingbackground {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -201,7 +201,7 @@ p {
   font-size: 20px;
 }
 
-/*version for ipad screen */
+/*version for mid screen */
 @media screen and (max-width: 1020px) and (min-width: 640px) {
   .header h1 {
     width: 100%;
@@ -226,7 +226,7 @@ p {
   .header div ul li a {
     line-height: 40px;
   }
-  .hero {
+  .meetingbackground {
     height: 400px;
     clear: both;
   }
@@ -285,7 +285,7 @@ p {
   }
 }
 
-/*vison for phone screen */
+/*version for small screen */
 @media screen and (max-width: 640px) {
   .header h1 {
     width: 100%;
@@ -310,7 +310,7 @@ p {
   .header div ul li a {
     line-height: 40px;
   }
-  .hero {
+  .meetingbackground {
     height: 200px;
   }
   .content {
